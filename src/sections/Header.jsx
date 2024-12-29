@@ -21,7 +21,6 @@ const Header = () => {
                     <img src='/images/xora.svg' width={115} height={55} alt='logo' />
                 </a>
 
-                {/* <div className={`w-full max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:bg-s2 max-lg:opacity-${isOpen ? '100' : '0'}`}> */}
                 <div className={clsx('w-full max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:bg-s2 max-lg:opacity-0', isOpen ? 'max-lg:opacity-100' : 'max-lg:pointer-events-none')}>
                     <div className='max-lg:relative max-lg:flex max-lg:flex-col max-lg:min-h-screen max-lg:p-6 max-lg:overflow-hidden sidebar-before max-lg:px-4'>
                         <nav className='max-lg:relative max-lg:my-auto max-lg:z-2'>
