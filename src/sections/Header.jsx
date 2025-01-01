@@ -25,7 +25,7 @@ const Header = () => {
             to={title}
             smooth
             spy
-            offset={-100}
+            offset={-90}
             activeClass='nav-active'
             onClick={() => setisOpen(false)}
             className='uppercase base-bold text-p4 transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5'
