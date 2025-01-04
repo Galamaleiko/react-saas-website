@@ -20,12 +20,12 @@ const Header = () => {
         }
     }, [])
 
-    const NavLink = ({ title }) => (
+    const NavLink = ({ title, offset }) => (
         <LinkScroll
             to={title}
             smooth
             spy
-            offset={-90}
+            offset={offset}
             activeClass='nav-active'
             onClick={() => setisOpen(false)}
             className='uppercase base-bold text-p4 transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5'
@@ -47,9 +47,9 @@ const Header = () => {
                         <nav className='max-lg:relative max-lg:my-auto max-lg:z-2'>
                             <ul className='flex max-lg:block max-lg:px-12'>
                                 <li className='nav-li'>
-                                    <NavLink title='features' />
+                                    <NavLink title='features' offset={-100} />
                                     <div className='dot' />
-                                    <NavLink title='pricing' />
+                                    <NavLink title='pricing' offset={15} />
                                 </li>
                                 <li className='nav-logo'>
                                     <LinkScroll
@@ -69,7 +69,7 @@ const Header = () => {
                                     </LinkScroll>
                                 </li>
                                 <li className='nav-li'>
-                                    <NavLink title='faq' />
+                                    <NavLink title='faq' offset={20}/>
                                     <div className='dot' />
                                     <NavLink title='download' />
                                 </li>
