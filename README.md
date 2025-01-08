@@ -12,7 +12,7 @@
 <br>
 
   <div>
-    This website is made with help of JSMastery GSAP + React Course and is hosted <a href=''> here </a>.
+    This website is made with help of JSMastery GSAP + React Course and is hosted <a href='https://react-saas-project.vercel.app/'> here </a>.
   </div>
 
 <br>
