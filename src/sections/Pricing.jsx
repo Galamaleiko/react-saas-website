@@ -72,7 +72,7 @@ const Pricing = () => {
                                                 duration={0.5}
                                                 useEasing={false}
                                                 preserveValue
-                                            />
+                                            />$
                                         </div>
 
                                         <div className='small-1 relative top-3 ml-1 uppercase'>
